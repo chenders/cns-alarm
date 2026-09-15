@@ -1,0 +1,12 @@
+[package]
+name = "cns-alarm"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+cns-engine = { path = "../cns-engine" }
+
+[lints]
+workspace = true

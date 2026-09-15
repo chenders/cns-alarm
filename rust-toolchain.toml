@@ -1,0 +1,5 @@
+# Keep desktop and Pi builds on the same compiler and target.
+[toolchain]
+channel = "1.97.1"
+components = ["rustfmt", "clippy", "llvm-tools-preview"]
+targets = ["aarch64-unknown-linux-gnu"]
